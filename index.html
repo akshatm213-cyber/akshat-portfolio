@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshat Mishra | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cursor glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">A<span>M</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="Akshat_Mishra_Resume.pdf" download class="nav-download-btn">
+        <i class="fas fa-download"></i> Resume
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+
+    <!-- Floating insurance words -->
+    <div class="floating-words" aria-hidden="true">
+      <div class="word-track track-1">
+        <span>GENERAL INSURANCE</span><span>MOTOR POLICY</span><span>FIRE &amp; MARINE</span><span>HEALTH COVER</span><span>PREMIUM</span><span>UNDERWRITING</span><span>CLAIM SETTLEMENT</span><span>AGENCY</span><span>POSP</span><span>IRDAI</span><span>GENERAL INSURANCE</span><span>MOTOR POLICY</span><span>FIRE &amp; MARINE</span><span>HEALTH COVER</span><span>PREMIUM</span><span>UNDERWRITING</span><span>CLAIM SETTLEMENT</span><span>AGENCY</span><span>POSP</span><span>IRDAI</span>
+      </div>
+      <div class="word-track track-2">
+        <span>LOSS RATIO</span><span>RETENTION</span><span>BANCASSURANCE</span><span>OEM CHANNEL</span><span>COA</span><span>RISK ASSESSMENT</span><span>POLICY RENEWAL</span><span>TATA AIG</span><span>COVERAGE</span><span>INDEMNITY</span><span>LOSS RATIO</span><span>RETENTION</span><span>BANCASSURANCE</span><span>OEM CHANNEL</span><span>COA</span><span>RISK ASSESSMENT</span><span>POLICY RENEWAL</span><span>TATA AIG</span><span>COVERAGE</span><span>INDEMNITY</span>
+      </div>
+      <div class="word-track track-3">
+        <span>THIRD PARTY</span><span>COMPREHENSIVE</span><span>DEDUCTIBLE</span><span>SUM INSURED</span><span>ENDORSEMENT</span><span>REINSURANCE</span><span>ACTUARY</span><span>BROKER</span><span>SURVEYOR</span><span>NCB</span><span>THIRD PARTY</span><span>COMPREHENSIVE</span><span>DEDUCTIBLE</span><span>SUM INSURED</span><span>ENDORSEMENT</span><span>REINSURANCE</span><span>ACTUARY</span><span>BROKER</span><span>SURVEYOR</span><span>NCB</span>
+      </div>
+    </div>
+
+    <!-- Floating finance icons -->
+    <div class="floating-icons" id="floatingIcons" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-photo reveal">
+        <img src="profile.jpg" alt="Akshat Mishra" />
+      </div>
+      <div class="hero-badge reveal">Insurance Professional</div>
+      <h1 class="hero-title reveal">
+        Hi, I'm <span class="gradient-text">Akshat Mishra</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        Location In-Charge at <strong>Tata AIG General Insurance Ltd.</strong><br />
+        Driving agency growth, team leadership &amp; operational excellence.
+      </p>
+      <div class="hero-stats reveal">
+        <div class="stat-item">
+          <span class="stat-number" data-target="300">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Activation Growth</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="74">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Retention Rate</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="16">0</span><span class="stat-suffix">L</span>
+          <span class="stat-label">Revenue Grown</span>
+        </div>
+      </div>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Get In Touch
+        </a>
+        <a href="Akshat_Mishra_Resume.pdf" download class="btn btn-outline">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="mouse-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- Insurance Ticker -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span><i class="fas fa-shield-alt"></i> General Insurance</span>
+      <span><i class="fas fa-car"></i> Motor Policy</span>
+      <span><i class="fas fa-fire"></i> Fire Insurance</span>
+      <span><i class="fas fa-heartbeat"></i> Health Cover</span>
+      <span><i class="fas fa-ship"></i> Marine Inland</span>
+      <span><i class="fas fa-umbrella"></i> Risk Coverage</span>
+      <span><i class="fas fa-file-contract"></i> Underwriting</span>
+      <span><i class="fas fa-handshake"></i> Agency Channel</span>
+      <span><i class="fas fa-chart-pie"></i> Loss Analysis</span>
+      <span><i class="fas fa-users"></i> POSP Network</span>
+      <span><i class="fas fa-shield-alt"></i> General Insurance</span>
+      <span><i class="fas fa-car"></i> Motor Policy</span>
+      <span><i class="fas fa-fire"></i> Fire Insurance</span>
+      <span><i class="fas fa-heartbeat"></i> Health Cover</span>
+      <span><i class="fas fa-ship"></i> Marine Inland</span>
+      <span><i class="fas fa-umbrella"></i> Risk Coverage</span>
+      <span><i class="fas fa-file-contract"></i> Underwriting</span>
+      <span><i class="fas fa-handshake"></i> Agency Channel</span>
+      <span><i class="fas fa-chart-pie"></i> Loss Analysis</span>
+      <span><i class="fas fa-users"></i> POSP Network</span>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="about-card-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Professional Profile</h3>
+          <p>Experienced insurance professional with 5+ years in the General Insurance industry. Currently serving as Location In-Charge at Tata AIG, handling branch operations, business development across OEM, Bancassurance, and Agency channels.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-card-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Business Growth</h3>
+          <p>Proven track record of scaling agency business from 2.8 lakhs to 16 lakhs at ICICI Lombard. Achieved 300% activation growth and maintained a healthy 72% loss ratio with expense ratio below 20%.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-card-icon"><i class="fas fa-users"></i></div>
+          <h3>Team Leadership</h3>
+          <p>Skilled in hiring, training, and managing POSP and IRDAI agents. Building strong relationships and providing excellent service to grow the agency network consistently.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Personal Info</h3>
+          <div class="about-info-list">
+            <div class="info-row"><span>Location:</span> Lakhimpur Kheri, UP, India</div>
+            <div class="info-row"><span>Email:</span> akshatm213@gmail.com</div>
+            <div class="info-row"><span>Phone:</span> +91 9235076051</div>
+            <div class="info-row"><span>Languages:</span> Hindi, English, Gujarati</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+      </div>
+      <div class="timeline">
+        <!-- Tata AIG -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge current">Current</div>
+            <h3>Location In-Charge (HOM)</h3>
+            <h4><i class="fas fa-building"></i> Tata AIG General Insurance Ltd.</h4>
+            <div class="timeline-meta">
+              <span><i class="fas fa-calendar"></i> Feb 2022 &ndash; Present</span>
+              <span><i class="fas fa-map-marker-alt"></i> Lakhimpur Kheri, UP</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Handling all branch operations and business requirements</li>
+              <li>Dealing in various channels: OEMs, Bancassurance &amp; Agency simultaneously</li>
+              <li>Growing Agency channel by continually hiring POSPs and IRDAI agents</li>
+              <li>Activations grown <strong>300%</strong> with the team's effort</li>
+              <li>Maintained loss ratio of <strong>72%</strong> in overall Agency channel</li>
+              <li>Expense ratio maintained below <strong>20%</strong></li>
+              <li>Achieved <strong>74%</strong> average retention rate over the year</li>
+            </ul>
+          </div>
+        </div>
+        <!-- ICICI Lombard -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Unit Sales Manager</h3>
+            <h4><i class="fas fa-building"></i> ICICI Lombard GIC Ltd.</h4>
+            <div class="timeline-meta">
+              <span><i class="fas fa-calendar"></i> Jun 2020 &ndash; Feb 2022</span>
+              <span><i class="fas fa-map-marker-alt"></i> Rajkot, Gujarat</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Grew agency business from <strong>2.8 lakhs to 16 lakhs</strong></li>
+              <li>Started Non-Motor business: Fire, Marine Inland, WC</li>
+              <li>Training agents, providing good services and building strong relationships</li>
+              <li>Added <strong>9 POSP and 2 IRDAI agents</strong> within first 2 months</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Tata Motors Internship -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Summer Intern</h3>
+            <h4><i class="fas fa-building"></i> Tata Motors Ltd.</h4>
+            <div class="timeline-meta">
+              <span><i class="fas fa-calendar"></i> May 2019 &ndash; Jul 2019</span>
+              <span><i class="fas fa-map-marker-alt"></i> Agra</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Managed two dealerships in Agra</li>
+              <li>Ensured all operations were correctly executed</li>
+              <li>Delivered observations and suggestions through a comprehensive Project Report</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-year">2018 &ndash; 2020</div>
+          <h3>PGDM</h3>
+          <h4>Jaipuria Institute of Management, Lucknow</h4>
+          <div class="edu-tags">
+            <span>Retail Marketing</span>
+            <span>Marketing Management</span>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-year">2015 &ndash; 2018</div>
+          <h3>BBA</h3>
+          <h4>Babu Banarasi Das University, Lucknow</h4>
+          <div class="edu-tags">
+            <span>Business Administration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Skills &amp; <span class="gradient-text">Tools</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-briefcase"></i> Core Skills</h3>
+          <div class="skill-items">
+            <div class="skill-chip" data-level="95">
+              <span>Loss Analysis</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:95%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="90">
+              <span>Team Handling</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:90%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="92">
+              <span>Agency Management</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:92%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="88">
+              <span>Business Development</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:88%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="85">
+              <span>Underwriting</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:85%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-laptop"></i> Tools &amp; Software</h3>
+          <div class="skill-items">
+            <div class="skill-chip" data-level="90">
+              <span>MS Office (Excel, Word, PPT)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:90%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="88">
+              <span>Spectrum AVO</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:88%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="85">
+              <span>Step Up</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:85%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="80">
+              <span>DMS</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:80%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="82">
+              <span>P400 / Empower</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:82%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-language"></i> Languages</h3>
+          <div class="skill-items">
+            <div class="skill-chip" data-level="100">
+              <span>Hindi</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:100%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="90">
+              <span>English</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:90%"></div></div>
+            </div>
+            <div class="skill-chip" data-level="50">
+              <span>Gujarati</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill:50%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Milestones</span>
+        <h2 class="section-title">Key <span class="gradient-text">Achievements</span></h2>
+      </div>
+      <div class="achievement-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Rapid Agent Recruitment</h3>
+          <p>Added 9 POSP and 2 IRDAI agents in a span of just 2 months at ICICI Lombard GIC.</p>
+          <span class="achievement-date">Oct 2020 &ndash; Dec 2020</span>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-rocket"></i></div>
+          <h3>Business Growth 5x</h3>
+          <p>Scaled agency business from 2.8 lakhs to 16 lakhs &mdash; a remarkable 5x growth in revenue.</p>
+          <span class="achievement-date">2020 &ndash; 2022</span>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+          <h3>Shoorveer Award Winner</h3>
+          <p>Won the Shoorveer award for 3 consecutive months in the health contest at Tata AIG.</p>
+          <span class="achievement-date">Jul 2023 &ndash; Sep 2023</span>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>300% Activation Growth</h3>
+          <p>Led the team to achieve 300% growth in activations at the Lakhimpur Kheri branch.</p>
+          <span class="achievement-date">2022 &ndash; Present</span>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-music"></i></div>
+          <h3>Singing Competition</h3>
+          <p>Secured 2nd rank in the inter-campus singing competition at Jaipuria Institute.</p>
+          <span class="achievement-date">Feb 2020</span>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fas fa-balance-scale"></i></div>
+          <h3>Operational Excellence</h3>
+          <p>Maintained 72% loss ratio and below 20% expense ratio with 74% avg retention rate.</p>
+          <span class="achievement-date">2022 &ndash; Present</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interests -->
+  <section class="section interests">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Beyond Work</span>
+        <h2 class="section-title">Interests &amp; <span class="gradient-text">Hobbies</span></h2>
+      </div>
+      <div class="interests-grid reveal">
+        <div class="interest-item">
+          <div class="interest-icon"><i class="fas fa-plane-departure"></i></div>
+          <span>Travelling</span>
+        </div>
+        <div class="interest-item">
+          <div class="interest-icon"><i class="fas fa-microphone-alt"></i></div>
+          <span>Singing</span>
+        </div>
+        <div class="interest-item">
+          <div class="interest-icon"><i class="fas fa-handshake"></i></div>
+          <span>Networking</span>
+        </div>
+        <div class="interest-item">
+          <div class="interest-icon"><i class="fas fa-book-reader"></i></div>
+          <span>Learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      </div>
+      <div class="contact-center reveal">
+        <p class="contact-subtitle">Feel free to reach out for professional collaborations, insurance inquiries, or just to say hello.</p>
+        <div class="contact-cards-center">
+          <a href="mailto:akshatm213@gmail.com" class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <span>akshatm213@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919235076051" class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <span>+91 9235076051</span>
+            </div>
+          </a>
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <span>Lakhimpur Kheri, UP, India</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-download">
+          <a href="Akshat_Mishra_Resume.pdf" download class="btn btn-primary btn-lg">
+            <i class="fas fa-file-pdf"></i> Download Full Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">A<span>M</span></div>
+        <p>&copy; 2026 Akshat Mishra. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="mailto:akshatm213@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+919235076051" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
